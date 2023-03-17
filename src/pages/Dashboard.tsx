@@ -55,7 +55,13 @@ display: flex;
 flex-direction: column`
 const UniqueCategoryTitle = styled.h3`
 `
-
+const colors= [
+    '#E769D0',
+    '#FC9439',
+    '#F0D655',
+    '#CCE751',
+    '#61F7EA'
+]
 const uniqueCategories = [
 ...Array.from(new Set(tickets.map(({category})=>category)))
 ]
@@ -71,7 +77,7 @@ function Dashboard() {
                         { tickets.filter(ticket=>ticket.category===uniqueCategory).map((filteredTicket,ticketIndex)=>(
                             <TicketCard
                             id={ticketIndex}
-                            color={filteredTicket.color}
+                            color={colors[categoryIndex] || colors[0]}
                             ticket={filteredTicket}
                             />))
                         }

@@ -44,7 +44,7 @@ function TicketCard({color, ticket,id }: {color: string, ticket: Ticket,id:numbe
     return (
         <Container>
             <StyledLink  to={`/ticket/${ticket.documentId}`} id='link'>
-                <TicketColor />
+                <TicketColor style={{backgroundColor:color}}/>
                 <Title>{ticket.title}</Title>
                 <AvatarDisplay ticket={ticket} />
                 <StatusDisplay status={ticket.status ?? 'default'} />

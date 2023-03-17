@@ -21,9 +21,10 @@ const AvatarContainer = styled.div`
 const AvatarImage = styled.img`
 
   height: 50px;
-  width:50px;
+  width: 50px;
   border-radius: 25px;
   object-fit: cover;
+  border: 2px solid #c9aa3a;
 
 `
 function AvatarDisplay({ticket}:Props) {

@@ -19,7 +19,7 @@ const LogoContainer = styled.div`
   flex-direction: column;
 `
 const LogoImg = styled.img`
-    width: 25px;
+    width: 50px;
 `
 const ControlsContainer = styled.div`
   padding: 40px 25px;

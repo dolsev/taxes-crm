@@ -20,11 +20,11 @@ function PriorityDisplay({priority}:{priority:number}) {
     return (
         <Content>
             <StarContainer>
-                <Header style={{color:priority>=1 ? 'yellow':'' }}>★</Header>
-                <Header style={{color:priority>=2 ? 'yellow':'' }}>★</Header>
-                <Header style={{color:priority>=3 ? 'yellow':'' }}>★</Header>
-                <Header style={{color:priority>=4 ? 'yellow':'' }}>★</Header>
-                <Header style={{color:priority>=5 ? 'yellow':'' }}>★</Header>
+                <Header style={{color:priority>=1 ? '#fff134':'' }}>★</Header>
+                <Header style={{color:priority>=2 ? '#fff134':'' }}>★</Header>
+                <Header style={{color:priority>=3 ? '#fff134':'' }}>★</Header>
+                <Header style={{color:priority>=4 ? '#fff134':'' }}>★</Header>
+                <Header style={{color:priority>=5 ? '#fff134':'' }}>★</Header>
             </StarContainer>
         </Content>
     );

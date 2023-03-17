@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
-import TicketPage from "./pages/TicketPage";
+import {TicketPage} from "./pages/TicketPage";
 import Navbar from "./components/Navbar";
 const Container = styled.div `
     margin:0;

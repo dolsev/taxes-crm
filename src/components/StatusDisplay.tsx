@@ -16,16 +16,16 @@ function StatusDisplay({status}:{status:string}) {
         let color
         switch (status){
             case 'done':
-                color = 'green'
+                color = '#629B3C'
                 break
             case 'working on it':
-                color = 'yellow'
+                color = '#E2DA3C'
                 break
             case 'stuck':
-                color = 'red'
+                color = '#D00026'
                 break
             default:
-                color='blue'
+                color='#39C7E7'
         }
         return color
     }
